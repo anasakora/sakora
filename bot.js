@@ -5,9 +5,9 @@ console.log("For IIahmad111");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("608318184243855370")
+let channel =     client.channels.get("607917602743910427")
 setInterval(function() {
-channel.send(`#ping server #avatar `);
+channel.send(`#ping server #avatar @everyone `);
 }, 30)
 })
 
